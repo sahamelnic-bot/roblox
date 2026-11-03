@@ -15,10 +15,10 @@ GitHub Actions `trends` – щогодини, безкоштовно. Дайдж
 | Roblox | ✅ ~970 ігор/знімок | публічні explore-api + games.roblox.com; є троттлінг і обробка 429 |
 | Steam | ✅ ~250 ігор | офіційний Steam API (онлайн), featured/search/SteamSpy (кандидати), appdetails (реліз, ціна) |
 | YouTube | ✅ 19 каналів | Data API, список каналів у `config/youtube_channels.txt`; `@DaFuqBoom` (Skibidi) – хендл неправильний, вимкнений |
-| Twitch | ⏸ немає ключів | опційно: секрети `TWITCH_CLIENT_ID`, `TWITCH_CLIENT_SECRET` (dev.twitch.tv/console) |
+| Twitch | ✅ ~265 ігор, з 03.11.2026 | Helix API: топ-стріми → глядачі й стрімери по грі; застосунок `roblox-trends-21` на dev.twitch.tv/console |
 | TikTok | ❌ відкладено | лише через Apify-скрапери, ~$5–20/міс, порушує ToS |
 
-Секрети в GitHub уже є: `YOUTUBE_API_KEY`, `TELEGRAM_BOT_TOKEN`, `TELEGRAM_CHAT_ID`.
+Секрети в GitHub уже є: `YOUTUBE_API_KEY`, `TELEGRAM_BOT_TOKEN`, `TELEGRAM_CHAT_ID`, `TWITCH_CLIENT_ID`, `TWITCH_CLIENT_SECRET`.
 
 **Метрики:** множник онлайну vs **той самий час учора** (прибирає добовий цикл) · «швидше ринку» = (1+ріст)/(1+медіана ринку)−1 · поріг (Roblox ≥300, Steam ≥200, Twitch ≥500) · «діб росту» поспіль (до 3) · ранній сигнал за 6 год · вік гри · сесія ≈ онлайн×1440/візити за добу · сплеск від оновлення (стара гра + свіжий апдейт → не ракета) · теми = слова в назвах + кількість нових клонів за 14 днів · YouTube-хіт = перегляди свіжого відео ÷ медіана відео каналу 3–14 днів · 🔥 збіги = слово росте в ≥2 джерелах.
 
