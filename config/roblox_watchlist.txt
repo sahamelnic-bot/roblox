@@ -1,0 +1,4 @@
+# universeId Roblox-ігор, які трекати завжди (свої, конкуренти).
+# По одному на рядок, після # – коментар.
+# universeId з адреси гри: https://apis.roblox.com/universes/v1/places/<placeId>/universe
+# (placeId – число з roblox.com/games/<placeId>/...)

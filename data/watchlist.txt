@@ -1,4 +1,0 @@
-# universeId ігор, які треба трекати завжди (навіть якщо їх немає на головній).
-# По одному на рядок, після # – коментар.
-# Як дізнатись universeId: відкрий https://apis.roblox.com/universes/v1/places/<placeId>/universe
-# (placeId – число з адреси гри roblox.com/games/<placeId>/...)

@@ -1,8 +1,12 @@
-name: roblox-trends
+name: trends
+
+# Щогодини: збір Roblox / Steam / Twitch / YouTube → аналіз → звіт.
+# Сирі дані й звіт живуть в окремій гілці tracker-data (завжди 1 коміт,
+# force-push), щоб основна історія репо не роздувалась.
 
 on:
   schedule:
-    - cron: "17 * * * *"   # щогодини
+    - cron: "17 * * * *"
   workflow_dispatch:
     inputs:
       notify:
@@ -14,24 +18,34 @@ permissions:
   contents: write
 
 concurrency:
-  group: roblox-trends
+  group: trends
   cancel-in-progress: false
 
 jobs:
   run:
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 30
     steps:
       - uses: actions/checkout@v4
+
+      - name: Забрати попередні дані
+        uses: actions/checkout@v4
+        continue-on-error: true   # першого разу гілки ще немає
+        with:
+          ref: tracker-data
+          path: store
 
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
 
+      - name: Тести
+        run: python -m unittest discover -s tests -t .
+
       - name: Чи слати дайджест
         id: when
         run: |
-          # дайджест раз на добу о 06:xx UTC (09:xx Київ) або при ручному запуску
+          # раз на добу о 06:xx UTC (09:xx Київ) або при ручному запуску
           if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
             echo "notify=${{ inputs.notify }}" >> "$GITHUB_OUTPUT"
           elif [ "$(date -u +%H)" = "06" ]; then
@@ -42,25 +56,32 @@ jobs:
 
       - name: Збір і аналіз
         env:
+          TRACKER_DATA: ${{ github.workspace }}/store/data
+          TRACKER_REPORTS: ${{ github.workspace }}/store/reports
+          MIN_CCU: ${{ vars.MIN_CCU }}
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+          TWITCH_CLIENT_ID: ${{ secrets.TWITCH_CLIENT_ID }}
+          TWITCH_CLIENT_SECRET: ${{ secrets.TWITCH_CLIENT_SECRET }}
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
-          MIN_CCU: ${{ vars.MIN_CCU || '300' }}
         run: |
+          mkdir -p store
           if [ "${{ steps.when.outputs.notify }}" = "true" ]; then
             python -m tracker.main run --notify
           else
             python -m tracker.main run
           fi
 
-      - name: Зберегти дані в репо
+      - name: Зберегти дані в гілку tracker-data
+        env:
+          GH_TOKEN: ${{ github.token }}
         run: |
+          cd store
+          rm -rf .git
+          git init -q
           git config user.name "trends-bot"
           git config user.email "trends-bot@users.noreply.github.com"
-          git add data reports
-          git diff --cached --quiet && exit 0
-          git commit -m "data: snapshot $(date -u +%Y-%m-%dT%H:%MZ)"
-          for i in 1 2 3 4; do
-            git pull --rebase origin "${GITHUB_REF_NAME}" && git push origin "HEAD:${GITHUB_REF_NAME}" && exit 0
-            sleep $((2 ** i))
-          done
-          exit 1
+          git checkout -q -b tracker-data
+          git add -A
+          git commit -qm "snapshot $(date -u +%Y-%m-%dT%H:%MZ)"
+          git push -qf "https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" tracker-data

@@ -1,0 +1,29 @@
+# Канали, за якими стежимо. Хендл (@name) або id каналу (UC...).
+# Якщо хендл неправильний – бот напише «не знайдено каналів» у лозі й звіті, тоді виправ.
+# Квота: ~1 одиниця на канал за запуск, тож 50-80 каналів – без проблем.
+
+# --- Roblox-ютубери (новини й тренди Roblox) ---
+@KreekCraft
+@Flamingo
+@PrestonPlayz
+@Aphmau
+@Unspeakable
+@DanTDM
+@Thinknoodles
+@LankyBox
+@ItsFunneh
+@Jelly
+@GamerChad
+@Bigbst4tz2
+@Sketch
+
+# --- брейнрот / дитячий вірусний контент ---
+@DaFuqBoom
+@MrBeast
+
+# --- стрімери/летсплеєри, що вивозять інді-хіти Steam ---
+@markiplier
+@jacksepticeye
+@CoryxKenshin
+@caseoh_
+@IShowSpeed
