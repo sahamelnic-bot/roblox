@@ -1,0 +1,66 @@
+name: roblox-trends
+
+on:
+  schedule:
+    - cron: "17 * * * *"   # щогодини
+  workflow_dispatch:
+    inputs:
+      notify:
+        description: "Надіслати дайджест у Telegram"
+        type: boolean
+        default: true
+
+permissions:
+  contents: write
+
+concurrency:
+  group: roblox-trends
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Чи слати дайджест
+        id: when
+        run: |
+          # дайджест раз на добу о 06:xx UTC (09:xx Київ) або при ручному запуску
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            echo "notify=${{ inputs.notify }}" >> "$GITHUB_OUTPUT"
+          elif [ "$(date -u +%H)" = "06" ]; then
+            echo "notify=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "notify=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Збір і аналіз
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          MIN_CCU: ${{ vars.MIN_CCU || '300' }}
+        run: |
+          if [ "${{ steps.when.outputs.notify }}" = "true" ]; then
+            python -m tracker.main run --notify
+          else
+            python -m tracker.main run
+          fi
+
+      - name: Зберегти дані в репо
+        run: |
+          git config user.name "trends-bot"
+          git config user.email "trends-bot@users.noreply.github.com"
+          git add data reports
+          git diff --cached --quiet && exit 0
+          git commit -m "data: snapshot $(date -u +%Y-%m-%dT%H:%MZ)"
+          for i in 1 2 3 4; do
+            git pull --rebase origin "${GITHUB_REF_NAME}" && git push origin "HEAD:${GITHUB_REF_NAME}" && exit 0
+            sleep $((2 ** i))
+          done
+          exit 1
