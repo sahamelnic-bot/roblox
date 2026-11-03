@@ -19,13 +19,34 @@ USER_AGENT = "trend-tracker/1.0 (+github actions)"
 
 # ---------- HTTP ----------
 
+_last_call: dict[str, float] = {}
+
+
+def throttle(host: str, min_interval: float) -> None:
+    """Не частіше одного запиту на host раз на min_interval секунд."""
+    wait = _last_call.get(host, 0) + min_interval - time.monotonic()
+    if wait > 0:
+        time.sleep(wait)
+    _last_call[host] = time.monotonic()
+
+
+# пауза між запитами для «чутливих» хостів (сек)
+HOST_INTERVAL = {
+    "apis.roblox.com": 1.0,
+    "games.roblox.com": 1.0,
+    "store.steampowered.com": 1.5,
+}
+
+
 def http_json(url: str, params: dict | None = None, headers: dict | None = None,
-              data: dict | None = None, retries: int = 4) -> Any:
+              data: dict | None = None, retries: int = 5) -> Any:
     full = f"{url}?{urllib.parse.urlencode(params)}" if params else url
     body = urllib.parse.urlencode(data).encode() if data is not None else None
     h = {"User-Agent": USER_AGENT, "Accept": "application/json", **(headers or {})}
-    delay = 2.0
+    host = urllib.parse.urlparse(url).hostname or ""
+    delay = 5.0
     for attempt in range(retries):
+        throttle(host, HOST_INTERVAL.get(host, 0.0))
         try:
             req = urllib.request.Request(full, data=body, headers=h)
             with urllib.request.urlopen(req, timeout=30) as resp:
@@ -33,10 +54,13 @@ def http_json(url: str, params: dict | None = None, headers: dict | None = None,
         except urllib.error.HTTPError as e:
             if e.code not in (429, 500, 502, 503, 504) or attempt == retries - 1:
                 raise
+            retry_after = e.headers.get("Retry-After") if e.headers else None
+            wait = float(retry_after) if retry_after and retry_after.isdigit() else delay
         except (urllib.error.URLError, TimeoutError):
             if attempt == retries - 1:
                 raise
-        time.sleep(delay)
+            wait = delay
+        time.sleep(min(wait, 60))
         delay *= 2
     raise RuntimeError("unreachable")
 
@@ -194,11 +218,21 @@ STOPWORDS = {
     "just", "only", "every", "one", "two", "day", "days", "hours", "minutes",
     "first", "last", "world", "vs", "edition", "demo", "official", "video",
     "shorts", "short", "funny", "moments", "challenge", "secret", "real",
+    "everyone", "everything", "nobody", "someone", "something", "anything", "everybody",
+    "there", "their", "them", "then", "than", "when", "where", "which", "while",
+    "about", "after", "before", "again", "never", "still", "even", "very", "really",
+    "here", "now", "too", "off", "over", "under", "back", "way", "long", "time",
+    "made", "make", "making", "gets", "got", "went", "going", "gone", "did", "does",
+    "doing", "dont", "cant", "wont", "isnt", "its", "our", "ours", "she", "him",
+    "these", "those", "some", "any", "much", "many", "more", "less", "like",
+    "regular", "home", "need", "want", "know", "think", "look", "see", "said",
+    "say", "tried", "try", "trying", "finally", "actually", "literally",
 }
 
 
 def tokenize(text: str) -> set[str]:
     clean = re.sub(r"\[.*?\]|\(.*?\)|#\w+", " ", text.lower())
+    clean = re.sub(r"[a-z]+['’](t|s|re|ve|ll|d|m)\b", " ", clean)  # isn't, it's, we're...
     words = re.findall(r"[a-zа-яіїєґ]+", clean)
     return {w for w in words if len(w) >= 3 and w not in STOPWORDS}
 

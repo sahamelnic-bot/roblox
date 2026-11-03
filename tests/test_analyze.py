@@ -169,3 +169,38 @@ class CrossoverTest(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class RobloxResilienceTest(Tmp):
+    def test_partial_429_keeps_other_chunks(self):
+        from unittest import mock
+        import urllib.error
+        calls = {"n": 0}
+
+        def fake(url, params=None, **kw):
+            if url == roblox.GAMES:
+                calls["n"] += 1
+                if calls["n"] == 1:
+                    raise urllib.error.HTTPError(url, 429, "Too Many Requests", None, None)
+                ids = params["universeIds"].split(",")
+                return {"data": [{"id": int(i), "name": f"G{i}", "playing": 500} for i in ids]}
+            return {"data": []}
+
+        with mock.patch.object(c, "http_json", side_effect=fake):
+            out = roblox.details(range(1, 101))   # 2 пачки по 50, перша падає
+        self.assertEqual(len(out), 50)
+
+    def test_all_chunks_fail_raises(self):
+        from unittest import mock
+        with mock.patch.object(c, "http_json", side_effect=RuntimeError("429")):
+            with self.assertRaises(RuntimeError):
+                roblox.details([1, 2, 3])
+
+    def test_home_down_uses_history(self):
+        from unittest import mock
+        c.append_csv(self.dir, H(1), [rb(7, "Known Game", 900, 10)], roblox.FIELDS)
+        with mock.patch.object(roblox, "discover", side_effect=RuntimeError("429")), \
+             mock.patch.object(roblox, "details", return_value={7: {"name": "Known Game", "playing": 950}}) as d:
+            msg = roblox.collect(self.dir, self.dir / "none.txt", NOW)
+        self.assertEqual(set(d.call_args[0][0]), {7})
+        self.assertIn("записано 1", msg)

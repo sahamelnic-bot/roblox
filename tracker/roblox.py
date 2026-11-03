@@ -40,7 +40,7 @@ def extract_games(payload: Any) -> Iterator[dict]:
             yield from extract_games(item)
 
 
-def discover(max_sort_pages: int = 5, max_content_pages: int = 3) -> dict[int, set[str]]:
+def discover(max_sort_pages: int = 5, max_content_pages: int = 2) -> dict[int, set[str]]:
     base = {"sessionId": str(uuid.uuid4()), "device": "computer", "country": "all"}
     found: dict[int, set[str]] = {}
 
@@ -53,7 +53,13 @@ def discover(max_sort_pages: int = 5, max_content_pages: int = 3) -> dict[int, s
 
     token = None
     for _ in range(max_sort_pages):
-        data = c.http_json(EXPLORE_SORTS, {**base, **({"sortsPageToken": token} if token else {})})
+        try:
+            data = c.http_json(EXPLORE_SORTS, {**base, **({"sortsPageToken": token} if token else {})})
+        except Exception as e:
+            if not found:
+                raise
+            print(f"Roblox: get-sorts перервано ({e}), беремо що встигли")
+            break
         if not isinstance(data, dict):
             break
         for sort in data.get("sorts", []):
@@ -77,9 +83,17 @@ def discover(max_sort_pages: int = 5, max_content_pages: int = 3) -> dict[int, s
 
 def details(universe_ids: Iterable[int]) -> dict[int, dict]:
     out: dict[int, dict] = {}
-    for chunk in c.chunks(sorted(set(universe_ids)), 50):
+    chunks = list(c.chunks(sorted(set(universe_ids)), 50))
+    failed = 0
+    for chunk in chunks:
         q = {"universeIds": ",".join(map(str, chunk))}
-        for g in c.http_json(GAMES, q).get("data", []):
+        try:
+            games = c.http_json(GAMES, q).get("data", [])
+        except Exception as e:
+            failed += 1
+            print(f"Roblox: пачку з {len(chunk)} ігор пропущено ({e})")
+            continue
+        for g in games:
             out[int(g["id"])] = {
                 "name": g.get("name", ""), "playing": g.get("playing") or 0,
                 "visits": g.get("visits") or 0, "favorites": g.get("favoritedCount") or 0,
@@ -93,6 +107,8 @@ def details(universe_ids: Iterable[int]) -> dict[int, dict]:
                     out[int(v["id"])].update(up=v.get("upVotes") or 0, down=v.get("downVotes") or 0)
         except Exception:
             pass
+    if chunks and failed == len(chunks):
+        raise RuntimeError("усі запити games.roblox.com впали (ліміт запитів?)")
     return out
 
 
@@ -104,8 +120,15 @@ def read_ids(path: Path) -> set[int]:
 
 
 def collect(data_dir: Path, watchlist: Path, now: datetime) -> str:
-    found = discover()
     history = c.load_csv(data_dir, now, 3, "universe_id")
+    try:
+        found = discover()
+    except Exception as e:
+        # головна недоступна – не страшно, якщо є історія або watchlist
+        if not history and not read_ids(watchlist):
+            raise
+        print(f"Roblox: головна недоступна ({e}), трекаємо відомі ігри")
+        found = {}
     recent = {int(k) for k, rows in history.items() if (c.num(rows[-1], "playing") or 0) >= KEEP_MIN}
     keep = set(found) | read_ids(watchlist)
     rest = sorted(recent - keep, key=lambda u: c.num(history[str(u)][-1], "playing") or 0, reverse=True)
