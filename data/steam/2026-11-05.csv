@@ -1,0 +1,834 @@
+ts,appid,name,players,sources
+2026-11-05T03:32:00Z,10,Counter-Strike,4077,steamspy
+2026-11-05T03:32:00Z,70,Half-Life,585,steamspy
+2026-11-05T03:32:00Z,100,Counter-Strike: Condition Zero,28,steamspy
+2026-11-05T03:32:00Z,220,Half-Life 2,959,steamspy
+2026-11-05T03:32:00Z,240,Counter-Strike: Source,1410,steamspy
+2026-11-05T03:32:00Z,320,Half-Life 2: Deathmatch,0,steamspy
+2026-11-05T03:32:00Z,340,Half-Life 2: Lost Coast,1,steamspy
+2026-11-05T03:32:00Z,400,Portal,301,steamspy
+2026-11-05T03:32:00Z,440,Team Fortress 2,41186,"most_played,popularnew,steamspy,topsellers"
+2026-11-05T03:32:00Z,550,Left 4 Dead 2,27817,"most_played,steamspy"
+2026-11-05T03:32:00Z,570,Dota 2,238735,"most_played,popularnew,topsellers"
+2026-11-05T03:32:00Z,730,Counter-Strike 2,313610,"most_played,popularnew,steamspy,topsellers"
+2026-11-05T03:32:00Z,4000,Garry's Mod,15908,"most_played,steamspy"
+2026-11-05T03:32:00Z,8930,Sid Meier's Civilization® V,9931,steamspy
+2026-11-05T03:32:00Z,24200,DC Universe™ Online,1069,
+2026-11-05T03:32:00Z,39210,FINAL FANTASY XIV Online,18135,"popularnew,topsellers"
+2026-11-05T03:32:00Z,49520,Borderlands 2,2785,"steamspy,topsellers"
+2026-11-05T03:32:00Z,105600,Terraria,26064,"most_played,steamspy"
+2026-11-05T03:32:00Z,107410,Arma 3,4068,steamspy
+2026-11-05T03:32:00Z,108600,Project Zomboid,33811,"most_played,popularnew,steamspy,topsellers"
+2026-11-05T03:32:00Z,216150,MapleStory,21310,"popularnew,topsellers"
+2026-11-05T03:32:00Z,218620,PAYDAY 2,4315,steamspy
+2026-11-05T03:32:00Z,219990,Grim Dawn,2313,steamspy
+2026-11-05T03:32:00Z,221100,DayZ,23695,"most_played,popularnew,steamspy"
+2026-11-05T03:32:00Z,227300,Euro Truck Simulator 2,9408,"most_played,steamspy"
+2026-11-05T03:32:00Z,227940,Heroes & Generals,0,steamspy
+2026-11-05T03:32:00Z,230410,Warframe,48862,"most_played,popularnew,steamspy,topsellers"
+2026-11-05T03:32:00Z,236390,War Thunder,34832,"most_played,popularnew,steamspy,topsellers"
+2026-11-05T03:32:00Z,238960,Path of Exile,0,steamspy
+2026-11-05T03:32:00Z,239140,Dying Light,4663,steamspy
+2026-11-05T03:32:00Z,242760,The Forest,3683,steamspy
+2026-11-05T03:32:00Z,244210,Assetto Corsa,5483,most_played
+2026-11-05T03:32:00Z,250900,The Binding of Isaac: Rebirth,24297,most_played
+2026-11-05T03:32:00Z,251570,7 Days to Die,0,"most_played,steamspy"
+2026-11-05T03:32:00Z,252490,Rust,29287,"most_played,popularnew,steamspy,topsellers"
+2026-11-05T03:32:00Z,252950,Rocket League®,0,"most_played,steamspy"
+2026-11-05T03:32:00Z,255710,Cities: Skylines,4192,steamspy
+2026-11-05T03:32:00Z,261550,Mount & Blade II: Bannerlord,12471,"most_played,steamspy"
+2026-11-05T03:32:00Z,266410,iRacing,1623,popularnew
+2026-11-05T03:32:00Z,270880,American Truck Simulator,7222,"popularnew,topsellers"
+2026-11-05T03:32:00Z,271590,Grand Theft Auto V Legacy,22209,"most_played,steamspy"
+2026-11-05T03:32:00Z,275850,No Man's Sky,10659,"popularnew,topsellers"
+2026-11-05T03:32:00Z,284160,BeamNG.drive,15836,"most_played,popularnew"
+2026-11-05T03:32:00Z,289070,Sid Meier’s Civilization® VI,18830,"most_played,steamspy"
+2026-11-05T03:32:00Z,291480,Warface: Clutch,3,steamspy
+2026-11-05T03:32:00Z,291550,Brawlhalla,8421,"most_played,steamspy"
+2026-11-05T03:32:00Z,292030,The Witcher 3: Wild Hunt — Remastered,15779,"most_played,steamspy"
+2026-11-05T03:32:00Z,294100,RimWorld,22063,"most_played,popularnew"
+2026-11-05T03:32:00Z,304050,Trove,320,steamspy
+2026-11-05T03:32:00Z,304930,Unturned,2240,steamspy
+2026-11-05T03:32:00Z,306130,The Elder Scrolls® Online,6676,popularnew
+2026-11-05T03:32:00Z,322170,Geometry Dash,35261,most_played
+2026-11-05T03:32:00Z,322330,Don't Starve Together,16607,"most_played,steamspy"
+2026-11-05T03:32:00Z,346110,ARK: Survival Evolved,8866,steamspy
+2026-11-05T03:32:00Z,359550,Tom Clancy's Rainbow Six Siege,55969,"most_played,popularnew,steamspy,topsellers"
+2026-11-05T03:32:00Z,376210,The Isle,13574,popularnew
+2026-11-05T03:32:00Z,377160,Fallout 4,10981,steamspy
+2026-11-05T03:32:00Z,381210,Dead by Daylight,34737,"most_played,popularnew,steamspy,topsellers"
+2026-11-05T03:32:00Z,386360,SMITE®,1098,steamspy
+2026-11-05T03:32:00Z,394360,Hearts of Iron IV,18941,most_played
+2026-11-05T03:32:00Z,397540,Borderlands 3,1795,topsellers
+2026-11-05T03:32:00Z,413150,Stardew Valley,30510,"most_played,popularnew,steamspy"
+2026-11-05T03:32:00Z,417910,Street Warriors Online,0,steamspy
+2026-11-05T03:32:00Z,418370,Resident Evil 7 Biohazard,1226,
+2026-11-05T03:32:00Z,427520,Factorio,12047,
+2026-11-05T03:32:00Z,431960,Wallpaper Engine,62731,"most_played,steamspy"
+2026-11-05T03:32:00Z,433850,Z1 Battle Royale,13,steamspy
+2026-11-05T03:32:00Z,438100,VRChat,30195,"most_played,steamspy"
+2026-11-05T03:32:00Z,444090,Paladins®,639,steamspy
+2026-11-05T03:32:00Z,444200,World of Tanks Blitz,0,steamspy
+2026-11-05T03:32:00Z,477160,Human Fall Flat,434,steamspy
+2026-11-05T03:32:00Z,489830,The Elder Scrolls V: Skyrim Special Edition,23722,"most_played,popularnew,topsellers"
+2026-11-05T03:32:00Z,526870,Satisfactory,0,steamspy
+2026-11-05T03:32:00Z,532210,Life is Strange 2,125,steamspy
+2026-11-05T03:32:00Z,550650,Black Squad,127,steamspy
+2026-11-05T03:32:00Z,552990,World of Warships,5626,"popularnew,steamspy,topsellers"
+2026-11-05T03:32:00Z,553850,HELLDIVERS™ 2,31901,"most_played,popularnew,steamspy,topsellers"
+2026-11-05T03:32:00Z,578080,PUBG: BATTLEGROUNDS,186438,"most_played,popularnew,steamspy,topsellers"
+2026-11-05T03:32:00Z,582010,Monster Hunter: World,6594,steamspy
+2026-11-05T03:32:00Z,582660,Black Desert,11400,popularnew
+2026-11-05T03:32:00Z,594650,Hunt: Showdown 1896,7515,"most_played,steamspy"
+2026-11-05T03:32:00Z,632360,Risk of Rain 2,10192,"popularnew,steamspy,topsellers"
+2026-11-05T03:32:00Z,648800,Raft,4195,steamspy
+2026-11-05T03:32:00Z,714010,Aimlabs,2629,most_played
+2026-11-05T03:32:00Z,739630,Phasmophobia,8484,"most_played,steamspy"
+2026-11-05T03:32:00Z,755790,Ring of Elysium,1,steamspy
+2026-11-05T03:32:00Z,813780,Age of Empires II: Definitive Edition,14878,most_played
+2026-11-05T03:32:00Z,814380,Sekiro™: Shadows Die Twice - GOTY Edition,2983,steamspy
+2026-11-05T03:32:00Z,892970,Valheim,41391,"most_played,popularnew,steamspy"
+2026-11-05T03:32:00Z,899770,Last Epoch,2108,steamspy
+2026-11-05T03:32:00Z,945360,Among Us,4512,steamspy
+2026-11-05T03:32:00Z,960090,Bloons TD 6,6923,most_played
+2026-11-05T03:32:00Z,961200,Predecessor,1921,
+2026-11-05T03:32:00Z,990080,Hogwarts Legacy,4571,steamspy
+2026-11-05T03:32:00Z,1063730,New World: Aeternum,225,steamspy
+2026-11-05T03:32:00Z,1085660,Destiny 2,24454,"most_played,popularnew,steamspy,topsellers"
+2026-11-05T03:32:00Z,1086940,Baldur's Gate 3,30329,"most_played,popularnew,steamspy,topsellers"
+2026-11-05T03:32:00Z,1089350,NBA 2K20,0,steamspy
+2026-11-05T03:32:00Z,1091500,Cyberpunk 2077,82065,"most_played,popularnew,steamspy,topsellers"
+2026-11-05T03:32:00Z,1097150,Fall Guys,381,steamspy
+2026-11-05T03:32:00Z,1116170,CyberCorp,1,steamspy
+2026-11-05T03:32:00Z,1142710,Total War: WARHAMMER III,18966,"most_played,popularnew"
+2026-11-05T03:32:00Z,1151340,Fallout 76,5739,"popularnew,topsellers"
+2026-11-05T03:32:00Z,1158310,Crusader Kings III,11541,"most_played,popularnew"
+2026-11-05T03:32:00Z,1172470,Apex Legends™,69516,"most_played,popularnew,steamspy,topsellers"
+2026-11-05T03:32:00Z,1174180,Red Dead Redemption 2,0,"most_played,steamspy"
+2026-11-05T03:32:00Z,1203220,NARAKA: BLADEPOINT,1336,"most_played,steamspy"
+2026-11-05T03:32:00Z,1203620,Enshrouded,32819,"most_played,popularnew,topsellers"
+2026-11-05T03:32:00Z,1222670,The Sims™ 4,17456,"most_played,popularnew,steamspy,topsellers"
+2026-11-05T03:32:00Z,1238810,Battlefield™ V,1111,steamspy
+2026-11-05T03:32:00Z,1240440,Halo Infinite,1783,steamspy
+2026-11-05T03:32:00Z,1245620,ELDEN RING,14387,"most_played,popularnew,steamspy,topsellers"
+2026-11-05T03:32:00Z,1281930,,2578,most_played
+2026-11-05T03:32:00Z,1285190,Borderlands 4,3482,"popularnew,topsellers"
+2026-11-05T03:32:00Z,1304930,The Outlast Trials,0,most_played
+2026-11-05T03:32:00Z,1326470,Sons Of The Forest,6507,"most_played,steamspy"
+2026-11-05T03:32:00Z,1364780,,6371,most_played
+2026-11-05T03:32:00Z,1366800,Crosshair X,34947,most_played
+2026-11-05T03:32:00Z,1374490,RuneScape: Dragonwilds,7635,popularnew
+2026-11-05T03:32:00Z,1401590,Disney Dreamlight Valley,3950,"popularnew,topsellers"
+2026-11-05T03:32:00Z,1449850,,8192,most_played
+2026-11-05T03:32:00Z,1466860,Age of Empires IV: Anniversary Edition,7780,"popularnew,topsellers"
+2026-11-05T03:32:00Z,1476970,IdleOn - The Incremental MMO,11844,
+2026-11-05T03:32:00Z,1478500,Big Walk,2672,popularnew
+2026-11-05T03:32:00Z,1491000,War Robots: Frontiers,168,steamspy
+2026-11-05T03:32:00Z,1517290,Battlefield™ 2042,427,steamspy
+2026-11-05T03:32:00Z,1551980,Clive Barker's Hellraiser: Revival,685,
+2026-11-05T03:32:00Z,1599340,Lost Ark,6632,steamspy
+2026-11-05T03:32:00Z,1601580,Frostpunk 2,593,
+2026-11-05T03:32:00Z,1623730,Palworld,20237,"most_played,steamspy"
+2026-11-05T03:32:00Z,1643320,,2960,
+2026-11-05T03:32:00Z,1665460,eFootball™,2636,"most_played,steamspy"
+2026-11-05T03:32:00Z,1669000,Age of Wonders 4,2728,"popularnew,topsellers"
+2026-11-05T03:32:00Z,1675200,Steam Deck,0,"popularnew,top_sellers,topsellers"
+2026-11-05T03:32:00Z,1677110,Lightyear Frontier,2091,"specials,topsellers"
+2026-11-05T03:32:00Z,1799840,Queen's Domain,6335,"popularnew,specials,topsellers"
+2026-11-05T03:32:00Z,1808500,ARC Raiders,47018,"most_played,popularnew,topsellers"
+2026-11-05T03:32:00Z,1811260,EA SPORTS FIFA 23,238,steamspy
+2026-11-05T03:32:00Z,1867240,WARDOGS,61290,"most_played,topsellers"
+2026-11-05T03:32:00Z,1903340,Clair Obscur: Expedition 33,2812,popularnew
+2026-11-05T03:32:00Z,1905180,OBS Studio,14346,most_played
+2026-11-05T03:32:00Z,1938090,Call of Duty®,117839,"most_played,popularnew,steamspy,topsellers"
+2026-11-05T03:32:00Z,1942280,Brotato,11822,"most_played,topsellers"
+2026-11-05T03:32:00Z,1966720,Lethal Company,3050,steamspy
+2026-11-05T03:32:00Z,1973530,Limbus Company,30095,"most_played,popularnew"
+2026-11-05T03:32:00Z,2050650,Resident Evil 4,7531,most_played
+2026-11-05T03:32:00Z,2054970,Dragon's Dogma 2,7189,topsellers
+2026-11-05T03:32:00Z,2060160,The Farmer Was Replaced,1888,"popularnew,topsellers"
+2026-11-05T03:32:00Z,2073620,Arena Breakout: Infinite,14070,"most_played,popularnew"
+2026-11-05T03:32:00Z,2073850,THE FINALS,15934,"most_played,popularnew,topsellers"
+2026-11-05T03:32:00Z,2139460,Once Human,15285,"most_played,popularnew,topsellers"
+2026-11-05T03:32:00Z,2141910,Magic: The Gathering Arena,8022,topsellers
+2026-11-05T03:32:00Z,2183900,"Warhammer 40,000: Space Marine 2",8196,"most_played,popularnew"
+2026-11-05T03:32:00Z,2186680,"Warhammer 40,000: Rogue Trader",2115,steamspy
+2026-11-05T03:32:00Z,2221490,Tom Clancy’s The Division® 2,5725,"popularnew,topsellers"
+2026-11-05T03:32:00Z,2223980,,2271,
+2026-11-05T03:32:00Z,2246340,Monster Hunter Wilds,10201,"most_played,steamspy"
+2026-11-05T03:32:00Z,2265280,Kill King 2D,0,new_releases
+2026-11-05T03:32:00Z,2288340,ACE COMBAT 8: WINGS OF THEVE,4376,"popularnew,topsellers"
+2026-11-05T03:32:00Z,2300320,Farming Simulator 25,14211,"most_played,popularnew"
+2026-11-05T03:32:00Z,2320980,Loftia,6336,"popularnew,specials,topsellers"
+2026-11-05T03:32:00Z,2357570,Overwatch®,48600,"most_played,popularnew,topsellers"
+2026-11-05T03:32:00Z,2358720,Black Myth: Wukong,6864,"most_played,steamspy"
+2026-11-05T03:32:00Z,2379780,Balatro,6948,most_played
+2026-11-05T03:32:00Z,2399830,ARK: Survival Ascended,16582,"most_played,topsellers"
+2026-11-05T03:32:00Z,2406770,Bodycam,1463,popularnew
+2026-11-05T03:32:00Z,2437170,SMITE 2,6776,topsellers
+2026-11-05T03:32:00Z,2440760,GRAVHOUNDS,595,topsellers
+2026-11-05T03:32:00Z,2479810,Gray Zone Warfare,7981,popularnew
+2026-11-05T03:32:00Z,2483190,Forza Horizon 6,7444,"most_played,popularnew"
+2026-11-05T03:32:00Z,2486820,Sonic Racing: CrossWorlds,1810,"popularnew,topsellers"
+2026-11-05T03:32:00Z,2507950,Delta Force,25872,most_played
+2026-11-05T03:32:00Z,2615540,VOID/BREAKER,731,"specials,topsellers"
+2026-11-05T03:32:00Z,2694490,Path of Exile 2,7007,"popularnew,steamspy"
+2026-11-05T03:32:00Z,2767030,Marvel Rivals,0,"most_played,popularnew,topsellers"
+2026-11-05T03:32:00Z,2794590,Scam Line,183,
+2026-11-05T03:32:00Z,2807960,Battlefield™ 6,21190,most_played
+2026-11-05T03:32:00Z,2868840,Slay the Spire 2,42064,"most_played,topsellers"
+2026-11-05T03:32:00Z,2887580,Active Matter,2038,popularnew
+2026-11-05T03:32:00Z,2920220,Terrible Lizards,573,
+2026-11-05T03:32:00Z,2929250,over the hill,2132,popularnew
+2026-11-05T03:32:00Z,2991310,Eternal Palace Sakura,55,
+2026-11-05T03:32:00Z,2995290,King's Heart,1,new_releases
+2026-11-05T03:32:00Z,3002130,Theos: Cities Of Myth,0,
+2026-11-05T03:32:00Z,3008130,Dying Light: The Beast,1527,popularnew
+2026-11-05T03:32:00Z,3010850,Gears of War: E-Day,5706,"popularnew,topsellers"
+2026-11-05T03:32:00Z,3053950,Dungeon Rampage Remastered,822,
+2026-11-05T03:32:00Z,3158270,Football Life Simulator,74,
+2026-11-05T03:32:00Z,3164500,Schedule I,8889,"popularnew,steamspy"
+2026-11-05T03:32:00Z,3218230,ArcheAge Chronicles,12005,"popularnew,topsellers"
+2026-11-05T03:32:00Z,3219030,Planet Zoo 2,5357,topsellers
+2026-11-05T03:32:00Z,3240220,Grand Theft Auto V Enhanced,27364,"most_played,popularnew,topsellers"
+2026-11-05T03:32:00Z,3241660,R.E.P.O.,25802,"most_played,popularnew,steamspy"
+2026-11-05T03:32:00Z,3259780,FINAL FANTASY RESONANCE,11579,"popularnew,topsellers"
+2026-11-05T03:32:00Z,3274580,Anno 117: Pax Romana,687,topsellers
+2026-11-05T03:32:00Z,3321460,Crimson Desert Enhanced,18840,"most_played,popularnew,topsellers"
+2026-11-05T03:32:00Z,3339970,WendyQuest: Legend of the Four Corner Stones,321,
+2026-11-05T03:32:00Z,3357650,,0,
+2026-11-05T03:32:00Z,3375780,Trails in the Sky 1st Chapter,307,topsellers
+2026-11-05T03:32:00Z,3393110,AION 2,111958,"most_played,popularnew,topsellers"
+2026-11-05T03:32:00Z,3405690,,13681,most_played
+2026-11-05T03:32:00Z,3419430,Bongo Cat,84692,most_played
+2026-11-05T03:32:00Z,3491960, Lost Liminal,0,new_releases
+2026-11-05T03:32:00Z,3513350,Wuthering Waves,4508,"most_played,popularnew,topsellers"
+2026-11-05T03:32:00Z,3527290,PEAK,13831,"most_played,popularnew,topsellers"
+2026-11-05T03:32:00Z,3529090,Astra Bestiary,47,
+2026-11-05T03:32:00Z,3564740,Where Winds Meet,6076,"popularnew,topsellers"
+2026-11-05T03:32:00Z,3669870,CONTROL Resonant,2696,"popularnew,specials,topsellers"
+2026-11-05T03:32:00Z,3678970,TBH: Task Bar Hero,56125,most_played
+2026-11-05T03:32:00Z,3722330,Shift At Midnight,1027,
+2026-11-05T03:32:00Z,3727090,Horses of Hoofprint Bay,2501,"specials,topsellers"
+2026-11-05T03:32:00Z,3751950,Assassin's Creed Black Flag Resynced,1596,"popularnew,topsellers"
+2026-11-05T03:32:00Z,3764200,,2813,
+2026-11-05T03:32:00Z,3768760,007 First Light,1410,"popularnew,specials,topsellers"
+2026-11-05T03:32:00Z,3779560,Celeste Blue Wizard Luna,13,new_releases
+2026-11-05T03:32:00Z,3787240,MARVEL Tōkon: Fighting Souls,0,
+2026-11-05T03:32:00Z,3812600,ReStory: Chill Electronics Repairs,1539,
+2026-11-05T03:32:00Z,3832030,BOOST VECTOR EX,108,
+2026-11-05T03:32:00Z,3884860,,603,
+2026-11-05T03:32:00Z,3892270,Gamble With Your Friends,2411,popularnew
+2026-11-05T03:32:00Z,3932890,Escape from Tarkov,14522,"most_played,topsellers"
+2026-11-05T03:32:00Z,3940610,EA SPORTS™ Madden NFL 27,3708,topsellers
+2026-11-05T03:32:00Z,4001890,How to Fish,3148,popularnew
+2026-11-05T03:32:00Z,4019220,Dressmaker,15761,"most_played,popularnew,topsellers"
+2026-11-05T03:32:00Z,4032350,EA SPORTS™ College Football 27,4700,topsellers
+2026-11-05T03:32:00Z,4078430,STAR WARS: Galactic Racer™,3246,"popularnew,topsellers"
+2026-11-05T03:32:00Z,4080220,EA SPORTS FC™ 27,19496,"most_played,popularnew,topsellers"
+2026-11-05T03:32:00Z,4115450,Phantom Blade Zero,83032,"most_played,popularnew,top_sellers,topsellers"
+2026-11-05T03:32:00Z,4126040,Aniimo,26548,"most_played,topsellers"
+2026-11-05T03:32:00Z,4135930,Scared Crow,0,coming_soon
+2026-11-05T03:32:00Z,4162040,Zenless Zone Zero,4826,"most_played,popularnew,topsellers"
+2026-11-05T03:32:00Z,4179280,Moonshiner Simulator,59,
+2026-11-05T03:32:00Z,4188260,Cozy~Fishing Kitten,73,new_releases
+2026-11-05T03:32:00Z,4231820,Castlevania: Belmont's Curse,2861,popularnew
+2026-11-05T03:32:00Z,4251460,Godzilla: Destroy All Monsters Melee Remastered,2994,"popularnew,top_sellers,topsellers"
+2026-11-05T03:32:00Z,4269100,What'Sub,1,new_releases
+2026-11-05T03:32:00Z,4280450,Diskette Dungeon,4,new_releases
+2026-11-05T03:32:00Z,4312190,CRACK,2316,"popularnew,topsellers"
+2026-11-05T03:32:00Z,4334530,,0,
+2026-11-05T03:32:00Z,4347370,Next of Kin: Epiphany,0,new_releases
+2026-11-05T03:32:00Z,4348910,Probably Stolen - Cyberpunk Shopkeeper Sim,69133,"most_played,popularnew,specials,topsellers"
+2026-11-05T03:32:00Z,4356430,NBA 2K27,10045,"popularnew,topsellers"
+2026-11-05T03:32:00Z,4358660,Hull Rupture,1421,topsellers
+2026-11-05T03:32:00Z,4435490,Call of Duty®: Modern Warfare® 4,0,"popularnew,top_sellers,topsellers"
+2026-11-05T03:32:00Z,4476270,Crown & Coin: The Hundred Years,63,
+2026-11-05T03:32:00Z,4513920,Axomorph Idle,5,new_releases
+2026-11-05T03:32:00Z,4646190,Just Dying,156,
+2026-11-05T03:32:00Z,4646650,Noodle Cable,0,new_releases
+2026-11-05T03:32:00Z,4677370,Just Keep Defending And Mining,4,new_releases
+2026-11-05T03:32:00Z,4710800,Endless Void: Idle Tower Defence,18,new_releases
+2026-11-05T03:32:00Z,4740930,,7660,
+2026-11-05T03:32:00Z,4832510,Trolley Dilemma,4,new_releases
+2026-11-05T03:32:00Z,4914750,Sweet Corn Desktop Pet,4,new_releases
+2026-11-05T03:32:00Z,4916010,Shorted,0,new_releases
+2026-11-05T03:32:00Z,4938300,Vilnius Museum of Antiquities: A Temple of the Past,0,new_releases
+2026-11-05T03:32:00Z,4954910,Scam With Your Friends,2703,topsellers
+2026-11-05T03:32:00Z,4962500,Dread Rune,0,new_releases
+2026-11-05T03:32:00Z,5008320,Bit Footballer: The Career,1,new_releases
+2026-11-05T03:32:00Z,5028050,Traffic Architect,151,
+2026-11-05T03:32:00Z,5037510,Playrooms,1566,"new_releases,specials,topsellers"
+2026-11-05T03:32:00Z,5062560,Pathos,14,new_releases
+2026-11-05T03:32:00Z,5091900,Prigod Idle,4,new_releases
+2026-11-05T03:32:00Z,5101960,Dungeons & Dynasties,642,
+2026-11-05T03:32:00Z,5133900,Can 'Em All,2707,topsellers
+2026-11-05T03:32:00Z,5139380,Marble Stars,1,new_releases
+2026-11-05T03:32:00Z,5181520,Mycelarium,533,
+2026-11-05T03:32:00Z,5243280,A Game About Picking Fruits,7,new_releases
+2026-11-05T03:32:00Z,5266240,Potato Please,3431,"specials,topsellers"
+2026-11-05T03:32:00Z,5279240,FarmLife,0,new_releases
+2026-11-05T03:32:00Z,5335510,Moon Sweepers,29454,"most_played,popularnew,topsellers"
+2026-11-05T03:32:00Z,5366060,A Personal Winter,5,new_releases
+2026-11-05T03:32:00Z,5371500,Cats Here,1,new_releases
+2026-11-05T03:32:00Z,5372430,Neuroflip,1,coming_soon
+2026-11-05T03:32:00Z,5433310,Hounded Reborn Greyhound Racing,0,new_releases
+2026-11-05T03:32:00Z,5460640,Rockhound Hollow,4,new_releases
+2026-11-05T12:29:00Z,10,Counter-Strike,9070,steamspy
+2026-11-05T12:29:00Z,70,Half-Life,504,steamspy
+2026-11-05T12:29:00Z,100,Counter-Strike: Condition Zero,47,steamspy
+2026-11-05T12:29:00Z,220,Half-Life 2,1154,steamspy
+2026-11-05T12:29:00Z,240,Counter-Strike: Source,2113,steamspy
+2026-11-05T12:29:00Z,320,Half-Life 2: Deathmatch,89,steamspy
+2026-11-05T12:29:00Z,340,Half-Life 2: Lost Coast,1,steamspy
+2026-11-05T12:29:00Z,400,Portal,281,steamspy
+2026-11-05T12:29:00Z,440,Team Fortress 2,99833,"most_played,popularnew,steamspy,topsellers"
+2026-11-05T12:29:00Z,550,Left 4 Dead 2,18651,"most_played,steamspy"
+2026-11-05T12:29:00Z,570,Dota 2,534846,"most_played,popularnew,topsellers"
+2026-11-05T12:29:00Z,730,Counter-Strike 2,890378,"most_played,popularnew,steamspy,topsellers"
+2026-11-05T12:29:00Z,4000,Garry's Mod,17814,"most_played,steamspy"
+2026-11-05T12:29:00Z,8930,Sid Meier's Civilization® V,10644,steamspy
+2026-11-05T12:29:00Z,24200,DC Universe™ Online,529,
+2026-11-05T12:29:00Z,39210,FINAL FANTASY XIV Online,10974,"popularnew,topsellers"
+2026-11-05T12:29:00Z,49520,Borderlands 2,1758,"steamspy,topsellers"
+2026-11-05T12:29:00Z,105600,Terraria,25727,"most_played,steamspy"
+2026-11-05T12:29:00Z,107410,Arma 3,4441,steamspy
+2026-11-05T12:29:00Z,108600,Project Zomboid,31797,"most_played,popularnew,steamspy,topsellers"
+2026-11-05T12:29:00Z,216150,MapleStory,15158,"popularnew,topsellers"
+2026-11-05T12:29:00Z,218620,PAYDAY 2,6564,steamspy
+2026-11-05T12:29:00Z,219990,Grim Dawn,3345,steamspy
+2026-11-05T12:29:00Z,221100,DayZ,29060,"most_played,popularnew,steamspy"
+2026-11-05T12:29:00Z,227300,Euro Truck Simulator 2,22597,"most_played,steamspy"
+2026-11-05T12:29:00Z,227940,Heroes & Generals,10,steamspy
+2026-11-05T12:29:00Z,230410,Warframe,58423,"most_played,popularnew,steamspy,topsellers"
+2026-11-05T12:29:00Z,236390,War Thunder,64840,"most_played,popularnew,steamspy,topsellers"
+2026-11-05T12:29:00Z,238960,Path of Exile,3356,steamspy
+2026-11-05T12:29:00Z,239140,Dying Light,8802,steamspy
+2026-11-05T12:29:00Z,242760,The Forest,4697,steamspy
+2026-11-05T12:29:00Z,244210,Assetto Corsa,7166,most_played
+2026-11-05T12:29:00Z,250900,The Binding of Isaac: Rebirth,37530,most_played
+2026-11-05T12:29:00Z,251570,7 Days to Die,20966,"most_played,steamspy"
+2026-11-05T12:29:00Z,252490,Rust,52376,"most_played,popularnew,steamspy,topsellers"
+2026-11-05T12:29:00Z,252950,Rocket League®,9595,"most_played,steamspy"
+2026-11-05T12:29:00Z,255710,Cities: Skylines,7763,steamspy
+2026-11-05T12:29:00Z,261550,Mount & Blade II: Bannerlord,22491,"most_played,steamspy"
+2026-11-05T12:29:00Z,266410,iRacing,633,"popularnew,topsellers"
+2026-11-05T12:29:00Z,270880,American Truck Simulator,4257,"popularnew,topsellers"
+2026-11-05T12:29:00Z,271590,Grand Theft Auto V Legacy,50823,"most_played,steamspy"
+2026-11-05T12:29:00Z,275850,No Man's Sky,9632,popularnew
+2026-11-05T12:29:00Z,281990,Stellaris,9094,popularnew
+2026-11-05T12:29:00Z,284160,BeamNG.drive,18084,"most_played,popularnew"
+2026-11-05T12:29:00Z,289070,Sid Meier’s Civilization® VI,27651,"most_played,steamspy"
+2026-11-05T12:29:00Z,291480,Warface: Clutch,6,steamspy
+2026-11-05T12:29:00Z,291550,Brawlhalla,5591,"most_played,steamspy"
+2026-11-05T12:29:00Z,292030,The Witcher 3: Wild Hunt — Remastered,27052,"most_played,steamspy"
+2026-11-05T12:29:00Z,294100,RimWorld,28484,"most_played,popularnew"
+2026-11-05T12:29:00Z,304050,Trove,393,steamspy
+2026-11-05T12:29:00Z,304930,Unturned,14863,steamspy
+2026-11-05T12:29:00Z,306130,The Elder Scrolls® Online,6620,"popularnew,topsellers"
+2026-11-05T12:29:00Z,322170,Geometry Dash,30165,most_played
+2026-11-05T12:29:00Z,322330,Don't Starve Together,42176,"most_played,steamspy"
+2026-11-05T12:29:00Z,346110,ARK: Survival Evolved,14545,steamspy
+2026-11-05T12:29:00Z,359550,Tom Clancy's Rainbow Six Siege,30847,"most_played,popularnew,steamspy,topsellers"
+2026-11-05T12:29:00Z,376210,The Isle,14932,
+2026-11-05T12:29:00Z,377160,Fallout 4,8865,steamspy
+2026-11-05T12:29:00Z,381210,Dead by Daylight,40707,"most_played,popularnew,steamspy,topsellers"
+2026-11-05T12:29:00Z,386360,SMITE®,467,steamspy
+2026-11-05T12:29:00Z,394360,Hearts of Iron IV,31958,most_played
+2026-11-05T12:29:00Z,397540,Borderlands 3,2256,topsellers
+2026-11-05T12:29:00Z,413150,Stardew Valley,56336,"most_played,steamspy"
+2026-11-05T12:29:00Z,417910,Street Warriors Online,1,steamspy
+2026-11-05T12:29:00Z,418370,Resident Evil 7 Biohazard,1468,
+2026-11-05T12:29:00Z,427520,Factorio,13389,
+2026-11-05T12:29:00Z,431960,Wallpaper Engine,98721,"most_played,steamspy"
+2026-11-05T12:29:00Z,433850,Z1 Battle Royale,31,steamspy
+2026-11-05T12:29:00Z,438100,VRChat,39763,"most_played,steamspy,topsellers"
+2026-11-05T12:29:00Z,444090,Paladins®,446,steamspy
+2026-11-05T12:29:00Z,444200,World of Tanks Blitz,5090,steamspy
+2026-11-05T12:29:00Z,477160,Human Fall Flat,3371,steamspy
+2026-11-05T12:29:00Z,489830,The Elder Scrolls V: Skyrim Special Edition,18606,"most_played,popularnew,topsellers"
+2026-11-05T12:29:00Z,526870,Satisfactory,10944,steamspy
+2026-11-05T12:29:00Z,532210,Life is Strange 2,129,steamspy
+2026-11-05T12:29:00Z,550650,Black Squad,183,steamspy
+2026-11-05T12:29:00Z,552990,World of Warships,12004,"popularnew,steamspy,topsellers"
+2026-11-05T12:29:00Z,553850,HELLDIVERS™ 2,29042,"most_played,popularnew,steamspy,topsellers"
+2026-11-05T12:29:00Z,578080,PUBG: BATTLEGROUNDS,642542,"most_played,popularnew,steamspy,topsellers"
+2026-11-05T12:29:00Z,582010,Monster Hunter: World,13513,steamspy
+2026-11-05T12:29:00Z,582660,Black Desert,8224,popularnew
+2026-11-05T12:29:00Z,594650,Hunt: Showdown 1896,17709,"most_played,steamspy"
+2026-11-05T12:29:00Z,632360,Risk of Rain 2,5733,"popularnew,steamspy,topsellers"
+2026-11-05T12:29:00Z,648800,Raft,9608,steamspy
+2026-11-05T12:29:00Z,714010,Aimlabs,5147,most_played
+2026-11-05T12:29:00Z,739630,Phasmophobia,6041,"most_played,steamspy"
+2026-11-05T12:29:00Z,755790,Ring of Elysium,2,steamspy
+2026-11-05T12:29:00Z,813780,Age of Empires II: Definitive Edition,14923,most_played
+2026-11-05T12:29:00Z,814380,Sekiro™: Shadows Die Twice - GOTY Edition,6352,steamspy
+2026-11-05T12:29:00Z,892970,Valheim,29127,"most_played,popularnew,steamspy"
+2026-11-05T12:29:00Z,899770,Last Epoch,3302,steamspy
+2026-11-05T12:29:00Z,910550,MONO CHAMELEON,0,new_releases
+2026-11-05T12:29:00Z,945360,Among Us,1711,steamspy
+2026-11-05T12:29:00Z,960090,Bloons TD 6,5683,most_played
+2026-11-05T12:29:00Z,961200,Predecessor,683,
+2026-11-05T12:29:00Z,990080,Hogwarts Legacy,6129,steamspy
+2026-11-05T12:29:00Z,1063730,New World: Aeternum,199,steamspy
+2026-11-05T12:29:00Z,1085660,Destiny 2,13314,"most_played,popularnew,steamspy,topsellers"
+2026-11-05T12:29:00Z,1086940,Baldur's Gate 3,23365,"most_played,popularnew,steamspy,topsellers"
+2026-11-05T12:29:00Z,1089350,NBA 2K20,192,steamspy
+2026-11-05T12:29:00Z,1091500,Cyberpunk 2077,80615,"most_played,popularnew,steamspy,topsellers"
+2026-11-05T12:29:00Z,1097150,Fall Guys,303,steamspy
+2026-11-05T12:29:00Z,1116170,CyberCorp,1,steamspy
+2026-11-05T12:29:00Z,1142710,Total War: WARHAMMER III,24715,"most_played,popularnew"
+2026-11-05T12:29:00Z,1151340,Fallout 76,4377,"popularnew,topsellers"
+2026-11-05T12:29:00Z,1158310,Crusader Kings III,13650,"most_played,popularnew"
+2026-11-05T12:29:00Z,1172470,Apex Legends™,186526,"most_played,popularnew,steamspy,topsellers"
+2026-11-05T12:29:00Z,1174180,Red Dead Redemption 2,24905,"most_played,steamspy"
+2026-11-05T12:29:00Z,1203220,NARAKA: BLADEPOINT,56223,"most_played,popularnew,steamspy,topsellers"
+2026-11-05T12:29:00Z,1203620,Enshrouded,29525,"most_played,popularnew,topsellers"
+2026-11-05T12:29:00Z,1222670,The Sims™ 4,17051,"most_played,popularnew,steamspy,topsellers"
+2026-11-05T12:29:00Z,1238810,Battlefield™ V,4261,steamspy
+2026-11-05T12:29:00Z,1240440,Halo Infinite,374,steamspy
+2026-11-05T12:29:00Z,1245620,ELDEN RING,19406,"most_played,popularnew,steamspy,topsellers"
+2026-11-05T12:29:00Z,1281930,,19580,most_played
+2026-11-05T12:29:00Z,1285190,Borderlands 4,2766,"popularnew,topsellers"
+2026-11-05T12:29:00Z,1286830,STAR WARS™: The Old Republic™,1806,popularnew
+2026-11-05T12:29:00Z,1304930,The Outlast Trials,13342,most_played
+2026-11-05T12:29:00Z,1326470,Sons Of The Forest,12309,"most_played,steamspy"
+2026-11-05T12:29:00Z,1364780,Street Fighter™ 6,25156,most_played
+2026-11-05T12:29:00Z,1366800,Crosshair X,30514,most_played
+2026-11-05T12:29:00Z,1374490,RuneScape: Dragonwilds,3601,popularnew
+2026-11-05T12:29:00Z,1401590,Disney Dreamlight Valley,2919,"popularnew,topsellers"
+2026-11-05T12:29:00Z,1449850,Yu-Gi-Oh! Master Duel,31037,"most_played,popularnew,topsellers"
+2026-11-05T12:29:00Z,1466860,Age of Empires IV: Anniversary Edition,12711,"popularnew,topsellers"
+2026-11-05T12:29:00Z,1476970,IdleOn - The Incremental MMO,12159,
+2026-11-05T12:29:00Z,1478500,Big Walk,2338,popularnew
+2026-11-05T12:29:00Z,1491000,War Robots: Frontiers,269,steamspy
+2026-11-05T12:29:00Z,1517290,Battlefield™ 2042,812,steamspy
+2026-11-05T12:29:00Z,1551980,Clive Barker's Hellraiser: Revival,487,popularnew
+2026-11-05T12:29:00Z,1599340,Lost Ark,5306,steamspy
+2026-11-05T12:29:00Z,1601580,Frostpunk 2,746,
+2026-11-05T12:29:00Z,1623730,Palworld,29415,"most_played,steamspy"
+2026-11-05T12:29:00Z,1643320,,5021,
+2026-11-05T12:29:00Z,1665460,eFootball™,18445,"most_played,steamspy"
+2026-11-05T12:29:00Z,1669000,Age of Wonders 4,2361,"popularnew,topsellers"
+2026-11-05T12:29:00Z,1675200,Steam Deck,0,"popularnew,top_sellers,topsellers"
+2026-11-05T12:29:00Z,1677110,Lightyear Frontier,1935,"specials,topsellers"
+2026-11-05T12:29:00Z,1799840,Queen's Domain,4403,"popularnew,specials,topsellers"
+2026-11-05T12:29:00Z,1803870,The Knight of Turn,0,new_releases
+2026-11-05T12:29:00Z,1808500,ARC Raiders,33771,"most_played,popularnew,topsellers"
+2026-11-05T12:29:00Z,1811260,EA SPORTS FIFA 23,414,steamspy
+2026-11-05T12:29:00Z,1867240,WARDOGS,49376,"most_played,topsellers"
+2026-11-05T12:29:00Z,1903340,Clair Obscur: Expedition 33,3287,popularnew
+2026-11-05T12:29:00Z,1905180,OBS Studio,25418,most_played
+2026-11-05T12:29:00Z,1938090,Call of Duty®,101466,"most_played,popularnew,steamspy,topsellers"
+2026-11-05T12:29:00Z,1942280,Brotato,22893,most_played
+2026-11-05T12:29:00Z,1966720,Lethal Company,1351,steamspy
+2026-11-05T12:29:00Z,1973530,Limbus Company,68449,"most_played,popularnew,topsellers"
+2026-11-05T12:29:00Z,2050650,Resident Evil 4,11208,most_played
+2026-11-05T12:29:00Z,2054970,Dragon's Dogma 2,8069,topsellers
+2026-11-05T12:29:00Z,2060160,The Farmer Was Replaced,2196,topsellers
+2026-11-05T12:29:00Z,2073620,Arena Breakout: Infinite,21931,"most_played,popularnew"
+2026-11-05T12:29:00Z,2073850,THE FINALS,9419,"most_played,popularnew,topsellers"
+2026-11-05T12:29:00Z,2139460,Once Human,20452,"most_played,popularnew,topsellers"
+2026-11-05T12:29:00Z,2141910,Magic: The Gathering Arena,6416,topsellers
+2026-11-05T12:29:00Z,2183900,"Warhammer 40,000: Space Marine 2",10362,"most_played,popularnew"
+2026-11-05T12:29:00Z,2186680,"Warhammer 40,000: Rogue Trader",2377,steamspy
+2026-11-05T12:29:00Z,2221490,Tom Clancy’s The Division® 2,6068,"popularnew,topsellers"
+2026-11-05T12:29:00Z,2223980,,3953,
+2026-11-05T12:29:00Z,2246340,Monster Hunter Wilds,19978,"most_played,steamspy"
+2026-11-05T12:29:00Z,2288340,ACE COMBAT 8: WINGS OF THEVE,6276,"popularnew,topsellers"
+2026-11-05T12:29:00Z,2300320,Farming Simulator 25,20890,"most_played,popularnew"
+2026-11-05T12:29:00Z,2320980,Loftia,4422,"popularnew,specials,topsellers"
+2026-11-05T12:29:00Z,2357570,Overwatch®,35878,"most_played,popularnew,topsellers"
+2026-11-05T12:29:00Z,2358720,Black Myth: Wukong,17302,"most_played,steamspy"
+2026-11-05T12:29:00Z,2379780,Balatro,6028,most_played
+2026-11-05T12:29:00Z,2399830,ARK: Survival Ascended,20431,"most_played,topsellers"
+2026-11-05T12:29:00Z,2406770,Bodycam,1475,popularnew
+2026-11-05T12:29:00Z,2437170,SMITE 2,2407,
+2026-11-05T12:29:00Z,2440760,GRAVHOUNDS,334,
+2026-11-05T12:29:00Z,2479810,Gray Zone Warfare,7186,
+2026-11-05T12:29:00Z,2483190,Forza Horizon 6,12293,"most_played,popularnew"
+2026-11-05T12:29:00Z,2486820,Sonic Racing: CrossWorlds,676,topsellers
+2026-11-05T12:29:00Z,2507950,Delta Force,93790,most_played
+2026-11-05T12:29:00Z,2615540,VOID/BREAKER,574,"specials,topsellers"
+2026-11-05T12:29:00Z,2694490,Path of Exile 2,8876,"popularnew,steamspy"
+2026-11-05T12:29:00Z,2767030,Marvel Rivals,19311,"most_played,popularnew,topsellers"
+2026-11-05T12:29:00Z,2784180,Seleka-san who Exposes unnoticed with Naked Coat,327,new_releases
+2026-11-05T12:29:00Z,2794590,Scam Line,182,
+2026-11-05T12:29:00Z,2807960,Battlefield™ 6,21265,most_played
+2026-11-05T12:29:00Z,2868840,Slay the Spire 2,58364,most_played
+2026-11-05T12:29:00Z,2887580,Active Matter,3084,popularnew
+2026-11-05T12:29:00Z,2920220,Terrible Lizards,205,
+2026-11-05T12:29:00Z,2929250,over the hill,1156,popularnew
+2026-11-05T12:29:00Z,2991310,Eternal Palace Sakura,127,
+2026-11-05T12:29:00Z,3008130,Dying Light: The Beast,2163,popularnew
+2026-11-05T12:29:00Z,3010850,Gears of War: E-Day,1288,"popularnew,topsellers"
+2026-11-05T12:29:00Z,3053950,Dungeon Rampage Remastered,642,
+2026-11-05T12:29:00Z,3158270,Football Life Simulator,94,
+2026-11-05T12:29:00Z,3164500,Schedule I,4253,"popularnew,steamspy"
+2026-11-05T12:29:00Z,3218230,ArcheAge Chronicles,14323,"popularnew,topsellers"
+2026-11-05T12:29:00Z,3219030,Planet Zoo 2,6312,topsellers
+2026-11-05T12:29:00Z,3240220,Grand Theft Auto V Enhanced,54654,"most_played,popularnew,specials,topsellers"
+2026-11-05T12:29:00Z,3241660,R.E.P.O.,28364,"most_played,popularnew,steamspy"
+2026-11-05T12:29:00Z,3250720,Bulwark,0,new_releases
+2026-11-05T12:29:00Z,3259780,FINAL FANTASY RESONANCE,12822,"popularnew,topsellers"
+2026-11-05T12:29:00Z,3274580,Anno 117: Pax Romana,2270,topsellers
+2026-11-05T12:29:00Z,3321460,Crimson Desert Enhanced,22601,"most_played,popularnew,topsellers"
+2026-11-05T12:29:00Z,3339970,WendyQuest: Legend of the Four Corner Stones,89,
+2026-11-05T12:29:00Z,3375780,Trails in the Sky 1st Chapter,325,"popularnew,topsellers"
+2026-11-05T12:29:00Z,3393110,AION 2,163045,"most_played,popularnew,topsellers"
+2026-11-05T12:29:00Z,3405690,,17875,most_played
+2026-11-05T12:29:00Z,3419430,Bongo Cat,93982,most_played
+2026-11-05T12:29:00Z,3513350,Wuthering Waves,6803,"most_played,popularnew,topsellers"
+2026-11-05T12:29:00Z,3527290,PEAK,11590,"most_played,popularnew"
+2026-11-05T12:29:00Z,3529090,Astra Bestiary,25,
+2026-11-05T12:29:00Z,3543960,问题偶像的养成计划,7,new_releases
+2026-11-05T12:29:00Z,3564740,Where Winds Meet,11567,"popularnew,topsellers"
+2026-11-05T12:29:00Z,3669870,CONTROL Resonant,1619,"popularnew,specials,topsellers"
+2026-11-05T12:29:00Z,3678970,TBH: Task Bar Hero,73647,most_played
+2026-11-05T12:29:00Z,3722330,Shift At Midnight,1455,
+2026-11-05T12:29:00Z,3727090,Horses of Hoofprint Bay,2644,"popularnew,specials,topsellers"
+2026-11-05T12:29:00Z,3751950,Assassin's Creed Black Flag Resynced,1703,"popularnew,topsellers"
+2026-11-05T12:29:00Z,3764200,,3074,
+2026-11-05T12:29:00Z,3768760,007 First Light,1577,"popularnew,specials,topsellers"
+2026-11-05T12:29:00Z,3812600,ReStory: Chill Electronics Repairs,1391,
+2026-11-05T12:29:00Z,3832030,BOOST VECTOR EX,46,
+2026-11-05T12:29:00Z,3884860,,304,
+2026-11-05T12:29:00Z,3892270,Gamble With Your Friends,2354,
+2026-11-05T12:29:00Z,3932890,Escape from Tarkov,29201,"most_played,topsellers"
+2026-11-05T12:29:00Z,3940610,EA SPORTS™ Madden NFL 27,872,topsellers
+2026-11-05T12:29:00Z,4001890,How to Fish,6331,popularnew
+2026-11-05T12:29:00Z,4019220,Dressmaker,7838,"most_played,popularnew,topsellers"
+2026-11-05T12:29:00Z,4032350,,964,
+2026-11-05T12:29:00Z,4078430,STAR WARS: Galactic Racer™,1029,"popularnew,topsellers"
+2026-11-05T12:29:00Z,4080220,EA SPORTS FC™ 27,29296,"most_played,popularnew,topsellers"
+2026-11-05T12:29:00Z,4115450,Phantom Blade Zero,503516,"most_played,popularnew,topsellers"
+2026-11-05T12:29:00Z,4126040,Aniimo,31935,"most_played,topsellers"
+2026-11-05T12:29:00Z,4162040,Zenless Zone Zero,6027,"most_played,popularnew,topsellers"
+2026-11-05T12:29:00Z,4179280,Moonshiner Simulator,192,
+2026-11-05T12:29:00Z,4188260,Cozy~Fishing Kitten,146,
+2026-11-05T12:29:00Z,4231820,Castlevania: Belmont's Curse,1404,
+2026-11-05T12:29:00Z,4251460,Godzilla: Destroy All Monsters Melee Remastered,689,"popularnew,topsellers"
+2026-11-05T12:29:00Z,4262460,ROB RUN,19604,topsellers
+2026-11-05T12:29:00Z,4312190,CRACK,1341,"popularnew,topsellers"
+2026-11-05T12:29:00Z,4348910,Probably Stolen - Cyberpunk Shopkeeper Sim,143820,"most_played,popularnew,specials,topsellers"
+2026-11-05T12:29:00Z,4356430,NBA 2K27,16371,"popularnew,topsellers"
+2026-11-05T12:29:00Z,4358660,Hull Rupture,3763,topsellers
+2026-11-05T12:29:00Z,4407640,K-Pop Rising - Dream to Shine,5,new_releases
+2026-11-05T12:29:00Z,4435490,Call of Duty®: Modern Warfare® 4,0,"popularnew,top_sellers,topsellers"
+2026-11-05T12:29:00Z,4476270,Crown & Coin: The Hundred Years,147,
+2026-11-05T12:29:00Z,4553100,FEED ME MORE BRAINS,14,new_releases
+2026-11-05T12:29:00Z,4572120,Dirt Clicker,1752,new_releases
+2026-11-05T12:29:00Z,4599130,Haunted Brazil: File 01,0,new_releases
+2026-11-05T12:29:00Z,4633120,Voxotron,8,new_releases
+2026-11-05T12:29:00Z,4646190,Just Dying,184,
+2026-11-05T12:29:00Z,4740930,,9332,
+2026-11-05T12:29:00Z,4794250,My Deskmate Douki Cyan,0,new_releases
+2026-11-05T12:29:00Z,4908020,Love Joy Happiness,0,new_releases
+2026-11-05T12:29:00Z,4954910,Scam With Your Friends,1051,topsellers
+2026-11-05T12:29:00Z,5028050,Traffic Architect,253,
+2026-11-05T12:29:00Z,5037510,Playrooms,795,topsellers
+2026-11-05T12:29:00Z,5051540,Continuum,0,new_releases
+2026-11-05T12:29:00Z,5058160,Wretched,1,new_releases
+2026-11-05T12:29:00Z,5087920,Hex Composer,0,new_releases
+2026-11-05T12:29:00Z,5101960,Dungeons & Dynasties,593,
+2026-11-05T12:29:00Z,5126810,日本四季百景,0,new_releases
+2026-11-05T12:29:00Z,5133900,Can 'Em All,1496,topsellers
+2026-11-05T12:29:00Z,5167220,Another Cat`s Tale,0,new_releases
+2026-11-05T12:29:00Z,5181520,Mycelarium,538,
+2026-11-05T12:29:00Z,5227800,RealMandelRender - Fractal Visualizer,0,new_releases
+2026-11-05T12:29:00Z,5266240,Potato Please,4772,"specials,topsellers"
+2026-11-05T12:29:00Z,5294200,The Usual Table: Texas Hold’em,36,new_releases
+2026-11-05T12:29:00Z,5335510,Moon Sweepers,26281,"most_played,popularnew,topsellers"
+2026-11-05T12:29:00Z,5365300,yoruneko - Living Soundscape,0,new_releases
+2026-11-05T12:29:00Z,5365410,ASTERIS,64,new_releases
+2026-11-05T12:29:00Z,5402190,Digging Up Together,3,new_releases
+2026-11-05T12:29:00Z,5418550,Crossroads: Forgotten Paths,0,new_releases
+2026-11-05T12:29:00Z,5465230,Townlet,9,new_releases
+2026-11-05T12:29:00Z,5467480,The Cat Protocol,0,new_releases
+2026-11-05T12:29:00Z,5478070,World Estate: Property Tycoon,0,new_releases
+2026-11-05T20:42:00Z,10,Counter-Strike,10634,steamspy
+2026-11-05T20:42:00Z,70,Half-Life,764,steamspy
+2026-11-05T20:42:00Z,100,Counter-Strike: Condition Zero,31,steamspy
+2026-11-05T20:42:00Z,220,Half-Life 2,1621,steamspy
+2026-11-05T20:42:00Z,240,Counter-Strike: Source,3076,steamspy
+2026-11-05T20:42:00Z,320,Half-Life 2: Deathmatch,166,steamspy
+2026-11-05T20:42:00Z,340,Half-Life 2: Lost Coast,1,steamspy
+2026-11-05T20:42:00Z,400,Portal,423,steamspy
+2026-11-05T20:42:00Z,440,Team Fortress 2,101459,"most_played,popularnew,steamspy,topsellers"
+2026-11-05T20:42:00Z,550,Left 4 Dead 2,20446,"most_played,steamspy"
+2026-11-05T20:42:00Z,570,Dota 2,534946,"most_played,popularnew,topsellers"
+2026-11-05T20:42:00Z,730,Counter-Strike 2,906324,"most_played,popularnew,steamspy,topsellers"
+2026-11-05T20:42:00Z,4000,Garry's Mod,24637,"most_played,steamspy"
+2026-11-05T20:42:00Z,8930,Sid Meier's Civilization® V,14366,steamspy
+2026-11-05T20:42:00Z,24200,DC Universe™ Online,930,
+2026-11-05T20:42:00Z,39210,FINAL FANTASY XIV Online,17831,"popularnew,topsellers"
+2026-11-05T20:42:00Z,49520,Borderlands 2,3130,steamspy
+2026-11-05T20:42:00Z,105600,Terraria,20405,"most_played,steamspy"
+2026-11-05T20:42:00Z,107410,Arma 3,7106,steamspy
+2026-11-05T20:42:00Z,108600,Project Zomboid,41459,"most_played,popularnew,steamspy,topsellers"
+2026-11-05T20:42:00Z,216150,MapleStory,17356,"popularnew,topsellers"
+2026-11-05T20:42:00Z,218620,PAYDAY 2,12196,steamspy
+2026-11-05T20:42:00Z,219990,Grim Dawn,2904,steamspy
+2026-11-05T20:42:00Z,221100,DayZ,44639,"most_played,popularnew,steamspy"
+2026-11-05T20:42:00Z,227300,Euro Truck Simulator 2,32479,"most_played,steamspy"
+2026-11-05T20:42:00Z,227940,Heroes & Generals,8,steamspy
+2026-11-05T20:42:00Z,230410,Warframe,50635,"most_played,popularnew,steamspy,topsellers"
+2026-11-05T20:42:00Z,236390,War Thunder,57107,"most_played,popularnew,steamspy,topsellers"
+2026-11-05T20:42:00Z,238960,Path of Exile,4377,steamspy
+2026-11-05T20:42:00Z,239140,Dying Light,6401,steamspy
+2026-11-05T20:42:00Z,242760,The Forest,6017,steamspy
+2026-11-05T20:42:00Z,244210,Assetto Corsa,12279,most_played
+2026-11-05T20:42:00Z,250900,The Binding of Isaac: Rebirth,34280,most_played
+2026-11-05T20:42:00Z,251570,7 Days to Die,19541,"most_played,steamspy"
+2026-11-05T20:42:00Z,252490,Rust,147730,"most_played,popularnew,steamspy,topsellers"
+2026-11-05T20:42:00Z,252950,Rocket League®,27591,"most_played,steamspy"
+2026-11-05T20:42:00Z,255710,Cities: Skylines,6240,steamspy
+2026-11-05T20:42:00Z,261550,Mount & Blade II: Bannerlord,18447,"most_played,steamspy"
+2026-11-05T20:42:00Z,266410,iRacing,820,popularnew
+2026-11-05T20:42:00Z,270880,American Truck Simulator,7245,popularnew
+2026-11-05T20:42:00Z,271590,Grand Theft Auto V Legacy,49058,"most_played,steamspy"
+2026-11-05T20:42:00Z,275850,No Man's Sky,13276,popularnew
+2026-11-05T20:42:00Z,281990,Stellaris,9429,popularnew
+2026-11-05T20:42:00Z,284160,BeamNG.drive,28074,"most_played,popularnew"
+2026-11-05T20:42:00Z,289070,Sid Meier’s Civilization® VI,23302,"most_played,steamspy"
+2026-11-05T20:42:00Z,291480,Warface: Clutch,3,steamspy
+2026-11-05T20:42:00Z,291550,Brawlhalla,11644,"most_played,steamspy"
+2026-11-05T20:42:00Z,292030,The Witcher 3: Wild Hunt — Remastered,34274,"most_played,steamspy"
+2026-11-05T20:42:00Z,294100,RimWorld,24588,"most_played,popularnew"
+2026-11-05T20:42:00Z,304050,Trove,370,steamspy
+2026-11-05T20:42:00Z,304930,Unturned,17033,steamspy
+2026-11-05T20:42:00Z,306130,The Elder Scrolls® Online,9936,"popularnew,topsellers"
+2026-11-05T20:42:00Z,322170,Geometry Dash,49315,most_played
+2026-11-05T20:42:00Z,322330,Don't Starve Together,15177,"most_played,steamspy"
+2026-11-05T20:42:00Z,346110,ARK: Survival Evolved,11169,steamspy
+2026-11-05T20:42:00Z,359550,Tom Clancy's Rainbow Six Siege,60600,"most_played,popularnew,steamspy,topsellers"
+2026-11-05T20:42:00Z,376210,The Isle,17242,
+2026-11-05T20:42:00Z,377160,Fallout 4,13429,steamspy
+2026-11-05T20:42:00Z,381210,Dead by Daylight,54323,"most_played,popularnew,steamspy,topsellers"
+2026-11-05T20:42:00Z,386360,SMITE®,981,steamspy
+2026-11-05T20:42:00Z,394360,Hearts of Iron IV,33232,most_played
+2026-11-05T20:42:00Z,397540,Borderlands 3,2271,topsellers
+2026-11-05T20:42:00Z,413150,Stardew Valley,36210,"most_played,popularnew,steamspy"
+2026-11-05T20:42:00Z,417910,Street Warriors Online,1,steamspy
+2026-11-05T20:42:00Z,418370,Resident Evil 7 Biohazard,1618,
+2026-11-05T20:42:00Z,427520,Factorio,19399,
+2026-11-05T20:42:00Z,431960,Wallpaper Engine,50620,"most_played,steamspy"
+2026-11-05T20:42:00Z,433850,Z1 Battle Royale,31,steamspy
+2026-11-05T20:42:00Z,438100,VRChat,39440,"most_played,steamspy,topsellers"
+2026-11-05T20:42:00Z,444090,Paladins®,981,steamspy
+2026-11-05T20:42:00Z,444200,World of Tanks Blitz,6175,steamspy
+2026-11-05T20:42:00Z,477160,Human Fall Flat,1058,steamspy
+2026-11-05T20:42:00Z,489830,The Elder Scrolls V: Skyrim Special Edition,30410,"most_played,popularnew,topsellers"
+2026-11-05T20:42:00Z,526870,Satisfactory,18958,steamspy
+2026-11-05T20:42:00Z,529340,Victoria 3,8722,topsellers
+2026-11-05T20:42:00Z,532210,Life is Strange 2,202,steamspy
+2026-11-05T20:42:00Z,550650,Black Squad,266,steamspy
+2026-11-05T20:42:00Z,552990,World of Warships,6243,"popularnew,steamspy,topsellers"
+2026-11-05T20:42:00Z,553850,HELLDIVERS™ 2,31108,"most_played,popularnew,steamspy,topsellers"
+2026-11-05T20:42:00Z,578080,PUBG: BATTLEGROUNDS,181812,"most_played,popularnew,steamspy,topsellers"
+2026-11-05T20:42:00Z,582010,Monster Hunter: World,5365,steamspy
+2026-11-05T20:42:00Z,582660,Black Desert,14703,popularnew
+2026-11-05T20:42:00Z,594650,Hunt: Showdown 1896,16476,"most_played,steamspy"
+2026-11-05T20:42:00Z,632360,Risk of Rain 2,9227,"popularnew,steamspy,topsellers"
+2026-11-05T20:42:00Z,648800,Raft,5947,steamspy
+2026-11-05T20:42:00Z,714010,Aimlabs,2485,most_played
+2026-11-05T20:42:00Z,739630,Phasmophobia,12667,"most_played,steamspy"
+2026-11-05T20:42:00Z,755790,Ring of Elysium,2,steamspy
+2026-11-05T20:42:00Z,813780,Age of Empires II: Definitive Edition,20717,most_played
+2026-11-05T20:42:00Z,814380,Sekiro™: Shadows Die Twice - GOTY Edition,2329,steamspy
+2026-11-05T20:42:00Z,892970,Valheim,59823,"most_played,popularnew,steamspy"
+2026-11-05T20:42:00Z,899770,Last Epoch,2469,steamspy
+2026-11-05T20:42:00Z,945360,Among Us,7069,steamspy
+2026-11-05T20:42:00Z,960090,Bloons TD 6,8220,most_played
+2026-11-05T20:42:00Z,961200,Predecessor,1794,
+2026-11-05T20:42:00Z,990080,Hogwarts Legacy,8030,steamspy
+2026-11-05T20:42:00Z,1063730,New World: Aeternum,345,steamspy
+2026-11-05T20:42:00Z,1085660,Destiny 2,21311,"most_played,popularnew,steamspy,topsellers"
+2026-11-05T20:42:00Z,1086940,Baldur's Gate 3,37690,"most_played,popularnew,steamspy,topsellers"
+2026-11-05T20:42:00Z,1089350,NBA 2K20,76,steamspy
+2026-11-05T20:42:00Z,1091500,Cyberpunk 2077,104083,"most_played,popularnew,steamspy,topsellers"
+2026-11-05T20:42:00Z,1097150,Fall Guys,410,steamspy
+2026-11-05T20:42:00Z,1116170,CyberCorp,1,steamspy
+2026-11-05T20:42:00Z,1142710,Total War: WARHAMMER III,31332,"most_played,popularnew"
+2026-11-05T20:42:00Z,1151340,Fallout 76,7273,"popularnew,topsellers"
+2026-11-05T20:42:00Z,1158310,Crusader Kings III,17029,"most_played,popularnew"
+2026-11-05T20:42:00Z,1172470,Apex Legends™,67015,"most_played,popularnew,steamspy,topsellers"
+2026-11-05T20:42:00Z,1174180,Red Dead Redemption 2,22202,"most_played,steamspy"
+2026-11-05T20:42:00Z,1203220,NARAKA: BLADEPOINT,7401,"most_played,popularnew,steamspy,topsellers"
+2026-11-05T20:42:00Z,1203620,Enshrouded,55332,"most_played,popularnew,topsellers"
+2026-11-05T20:42:00Z,1222670,The Sims™ 4,24375,"most_played,popularnew,steamspy,topsellers"
+2026-11-05T20:42:00Z,1238810,Battlefield™ V,1381,steamspy
+2026-11-05T20:42:00Z,1240440,Halo Infinite,1089,steamspy
+2026-11-05T20:42:00Z,1245620,ELDEN RING,18659,"most_played,popularnew,steamspy,topsellers"
+2026-11-05T20:42:00Z,1281930,,11185,most_played
+2026-11-05T20:42:00Z,1285190,Borderlands 4,4258,"popularnew,topsellers"
+2026-11-05T20:42:00Z,1286830,STAR WARS™: The Old Republic™,3810,
+2026-11-05T20:42:00Z,1304930,The Outlast Trials,9667,most_played
+2026-11-05T20:42:00Z,1326470,Sons Of The Forest,12110,"most_played,steamspy"
+2026-11-05T20:42:00Z,1364780,Street Fighter™ 6,6053,most_played
+2026-11-05T20:42:00Z,1366800,Crosshair X,43217,most_played
+2026-11-05T20:42:00Z,1374490,RuneScape: Dragonwilds,7289,popularnew
+2026-11-05T20:42:00Z,1401590,Disney Dreamlight Valley,5340,"popularnew,topsellers"
+2026-11-05T20:42:00Z,1449850,Yu-Gi-Oh! Master Duel,12329,"most_played,popularnew,topsellers"
+2026-11-05T20:42:00Z,1466860,Age of Empires IV: Anniversary Edition,11272,"popularnew,topsellers"
+2026-11-05T20:42:00Z,1476680,Runika: A World of Little Legends,25,new_releases
+2026-11-05T20:42:00Z,1476970,IdleOn - The Incremental MMO,13597,
+2026-11-05T20:42:00Z,1478500,Big Walk,2481,popularnew
+2026-11-05T20:42:00Z,1491000,War Robots: Frontiers,210,steamspy
+2026-11-05T20:42:00Z,1517290,Battlefield™ 2042,787,steamspy
+2026-11-05T20:42:00Z,1551980,Clive Barker's Hellraiser: Revival,942,popularnew
+2026-11-05T20:42:00Z,1599340,Lost Ark,7327,steamspy
+2026-11-05T20:42:00Z,1601580,Frostpunk 2,983,
+2026-11-05T20:42:00Z,1623730,Palworld,21373,"most_played,steamspy"
+2026-11-05T20:42:00Z,1643320,S.T.A.L.K.E.R. 2: Heart of Chornobyl,8252,
+2026-11-05T20:42:00Z,1665460,eFootball™,18778,"most_played,steamspy"
+2026-11-05T20:42:00Z,1669000,Age of Wonders 4,4357,"popularnew,topsellers"
+2026-11-05T20:42:00Z,1675200,Steam Deck,0,"popularnew,top_sellers,topsellers"
+2026-11-05T20:42:00Z,1677110,Lightyear Frontier,3530,"popularnew,specials,topsellers"
+2026-11-05T20:42:00Z,1799840,Queen's Domain,7511,"popularnew,specials,topsellers"
+2026-11-05T20:42:00Z,1808500,ARC Raiders,62071,"most_played,popularnew,topsellers"
+2026-11-05T20:42:00Z,1811260,EA SPORTS™ FIFA 23,477,steamspy
+2026-11-05T20:42:00Z,1867240,WARDOGS,83540,"most_played,topsellers"
+2026-11-05T20:42:00Z,1903340,Clair Obscur: Expedition 33,4657,popularnew
+2026-11-05T20:42:00Z,1905180,OBS Studio,19592,most_played
+2026-11-05T20:42:00Z,1938090,Call of Duty®,122483,"most_played,popularnew,steamspy,topsellers"
+2026-11-05T20:42:00Z,1942280,Brotato,13606,most_played
+2026-11-05T20:42:00Z,1966720,Lethal Company,3059,steamspy
+2026-11-05T20:42:00Z,1973530,Limbus Company,24475,"most_played,popularnew,topsellers"
+2026-11-05T20:42:00Z,1996640,Wing Commander™: 35th Anniversary Edition,20,new_releases
+2026-11-05T20:42:00Z,2008740,Wing Commander™ III: Heart of the Tiger: 30th Anniversary Edition,43,new_releases
+2026-11-05T20:42:00Z,2008750,Wing Commander™ IV: The Price of Freedom: 30th Anniversary Edition,7,new_releases
+2026-11-05T20:42:00Z,2008760,Wing Commander™: Privateer,7,new_releases
+2026-11-05T20:42:00Z,2050650,Resident Evil 4,7460,most_played
+2026-11-05T20:42:00Z,2054970,Dragon's Dogma 2,7702,
+2026-11-05T20:42:00Z,2060160,The Farmer Was Replaced,2592,topsellers
+2026-11-05T20:42:00Z,2073620,Arena Breakout: Infinite,26351,"most_played,popularnew"
+2026-11-05T20:42:00Z,2073850,THE FINALS,19121,"most_played,popularnew,topsellers"
+2026-11-05T20:42:00Z,2074920,The First Descendant,2355,topsellers
+2026-11-05T20:42:00Z,2139460,Once Human,18046,"most_played,popularnew,topsellers"
+2026-11-05T20:42:00Z,2141910,Magic: The Gathering Arena,9556,topsellers
+2026-11-05T20:42:00Z,2183900,"Warhammer 40,000: Space Marine 2",10976,"most_played,popularnew"
+2026-11-05T20:42:00Z,2186680,"Warhammer 40,000: Rogue Trader",3762,steamspy
+2026-11-05T20:42:00Z,2221490,Tom Clancy’s The Division® 2,6726,"popularnew,topsellers"
+2026-11-05T20:42:00Z,2223980,,2246,
+2026-11-05T20:42:00Z,2246340,Monster Hunter Wilds,9492,"most_played,steamspy"
+2026-11-05T20:42:00Z,2288340,ACE COMBAT 8: WINGS OF THEVE,3507,"popularnew,topsellers"
+2026-11-05T20:42:00Z,2300320,Farming Simulator 25,39932,"most_played,popularnew"
+2026-11-05T20:42:00Z,2320980,Loftia,7111,"popularnew,specials,topsellers"
+2026-11-05T20:42:00Z,2357570,Overwatch®,48662,"most_played,popularnew,topsellers"
+2026-11-05T20:42:00Z,2358720,Black Myth: Wukong,3579,"most_played,steamspy"
+2026-11-05T20:42:00Z,2379780,Balatro,7721,most_played
+2026-11-05T20:42:00Z,2399830,ARK: Survival Ascended,20055,"most_played,topsellers"
+2026-11-05T20:42:00Z,2406770,Bodycam,2372,popularnew
+2026-11-05T20:42:00Z,2411200,Underkeep,1875,"specials,top_sellers,topsellers"
+2026-11-05T20:42:00Z,2437170,SMITE 2,5924,
+2026-11-05T20:42:00Z,2440760,GRAVHOUNDS,721,
+2026-11-05T20:42:00Z,2479810,Gray Zone Warfare,12404,
+2026-11-05T20:42:00Z,2483190,Forza Horizon 6,16236,"most_played,popularnew"
+2026-11-05T20:42:00Z,2486820,Sonic Racing: CrossWorlds,1334,topsellers
+2026-11-05T20:42:00Z,2507950,Delta Force,33291,most_played
+2026-11-05T20:42:00Z,2522120,Airframe Ultra,314,topsellers
+2026-11-05T20:42:00Z,2615540,VOID/BREAKER,863,topsellers
+2026-11-05T20:42:00Z,2694490,Path of Exile 2,11805,steamspy
+2026-11-05T20:42:00Z,2767030,Marvel Rivals,37495,"most_played,popularnew,topsellers"
+2026-11-05T20:42:00Z,2784180,,213,
+2026-11-05T20:42:00Z,2794590,Scam Line,380,
+2026-11-05T20:42:00Z,2807960,Battlefield™ 6,30560,most_played
+2026-11-05T20:42:00Z,2868840,Slay the Spire 2,38802,most_played
+2026-11-05T20:42:00Z,2887580,Active Matter,4590,popularnew
+2026-11-05T20:42:00Z,2920220,Terrible Lizards,464,
+2026-11-05T20:42:00Z,2929250,over the hill,2627,popularnew
+2026-11-05T20:42:00Z,2991310,Eternal Palace Sakura,34,
+2026-11-05T20:42:00Z,3008130,Dying Light: The Beast,2797,popularnew
+2026-11-05T20:42:00Z,3010850,Gears of War: E-Day,3107,popularnew
+2026-11-05T20:42:00Z,3053950,Dungeon Rampage Remastered,1157,
+2026-11-05T20:42:00Z,3067090,Wing Commander™: Academy,0,new_releases
+2026-11-05T20:42:00Z,3067100,Wing Commander™: Armada,2,new_releases
+2026-11-05T20:42:00Z,3067110,Strike Commander™,0,new_releases
+2026-11-05T20:42:00Z,3067120,Wing Commander™ Prophecy: 30th Anniversary Edition,11,new_releases
+2026-11-05T20:42:00Z,3067510,Ultima™  IV: Quest of the Avatar,1,new_releases
+2026-11-05T20:42:00Z,3067520,Ultima™ V: Warriors of Destiny,0,new_releases
+2026-11-05T20:42:00Z,3067530,Ultima™ VI: The False Prophet,1,new_releases
+2026-11-05T20:42:00Z,3158270,Football Life Simulator,172,
+2026-11-05T20:42:00Z,3164500,Schedule I,9693,"popularnew,steamspy"
+2026-11-05T20:42:00Z,3204330,County of Fortune,728,"specials,topsellers"
+2026-11-05T20:42:00Z,3218230,ArcheAge Chronicles,10545,topsellers
+2026-11-05T20:42:00Z,3219030,Planet Zoo 2,11147,topsellers
+2026-11-05T20:42:00Z,3240220,Grand Theft Auto V Enhanced,36916,"most_played,popularnew,topsellers"
+2026-11-05T20:42:00Z,3241660,R.E.P.O.,41456,"most_played,popularnew,steamspy"
+2026-11-05T20:42:00Z,3259780,FINAL FANTASY RESONANCE,11143,"popularnew,topsellers"
+2026-11-05T20:42:00Z,3274580,Anno 117: Pax Romana,4900,topsellers
+2026-11-05T20:42:00Z,3296060,Escape Academy 2: Back 2 School,658,topsellers
+2026-11-05T20:42:00Z,3321460,Crimson Desert Enhanced,24383,"most_played,popularnew,topsellers"
+2026-11-05T20:42:00Z,3339970,WendyQuest: Legend of the Four Corner Stones,330,
+2026-11-05T20:42:00Z,3375780,Trails in the Sky 1st Chapter,352,"popularnew,topsellers"
+2026-11-05T20:42:00Z,3393110,AION 2,182971,"most_played,popularnew,topsellers"
+2026-11-05T20:42:00Z,3405690,,21334,most_played
+2026-11-05T20:42:00Z,3419430,Bongo Cat,154048,most_played
+2026-11-05T20:42:00Z,3513350,Wuthering Waves,5274,"most_played,popularnew,topsellers"
+2026-11-05T20:42:00Z,3527290,PEAK,13462,"most_played,popularnew"
+2026-11-05T20:42:00Z,3529090,Astra Bestiary,34,
+2026-11-05T20:42:00Z,3564740,Where Winds Meet,7322,popularnew
+2026-11-05T20:42:00Z,3669870,CONTROL Resonant,3130,"popularnew,specials,topsellers"
+2026-11-05T20:42:00Z,3678970,TBH: Task Bar Hero,53383,most_played
+2026-11-05T20:42:00Z,3722330,Shift At Midnight,1293,
+2026-11-05T20:42:00Z,3727090,Horses of Hoofprint Bay,5187,"specials,topsellers"
+2026-11-05T20:42:00Z,3751950,Assassin's Creed Black Flag Resynced,2459,"popularnew,topsellers"
+2026-11-05T20:42:00Z,3764200,,3201,
+2026-11-05T20:42:00Z,3768760,007 First Light,2004,"popularnew,specials,topsellers"
+2026-11-05T20:42:00Z,3812600,ReStory: Chill Electronics Repairs,1872,
+2026-11-05T20:42:00Z,3832030,BOOST VECTOR EX,70,
+2026-11-05T20:42:00Z,3884860,,624,
+2026-11-05T20:42:00Z,3892270,Gamble With Your Friends,2397,
+2026-11-05T20:42:00Z,3932890,Escape from Tarkov,15269,"most_played,topsellers"
+2026-11-05T20:42:00Z,3940610,EA SPORTS™ Madden NFL 27,2368,topsellers
+2026-11-05T20:42:00Z,4001890,How to Fish,4281,popularnew
+2026-11-05T20:42:00Z,4019220,Dressmaker,15081,"most_played,popularnew,topsellers"
+2026-11-05T20:42:00Z,4032350,EA SPORTS™ College Football 27,2574,topsellers
+2026-11-05T20:42:00Z,4078430,STAR WARS: Galactic Racer™,2585,"popularnew,topsellers"
+2026-11-05T20:42:00Z,4080220,EA SPORTS FC™ 27,45321,"most_played,popularnew,topsellers"
+2026-11-05T20:42:00Z,4115450,Phantom Blade Zero,92262,"most_played,popularnew,top_sellers,topsellers"
+2026-11-05T20:42:00Z,4126040,Aniimo,36088,"most_played,popularnew,topsellers"
+2026-11-05T20:42:00Z,4162040,Zenless Zone Zero,5893,"most_played,popularnew"
+2026-11-05T20:42:00Z,4163660,Gun a Rat,8,new_releases
+2026-11-05T20:42:00Z,4179280,Moonshiner Simulator,177,
+2026-11-05T20:42:00Z,4188260,Cozy~Fishing Kitten,62,
+2026-11-05T20:42:00Z,4227560,Legends of Rock,24,new_releases
+2026-11-05T20:42:00Z,4231820,Castlevania: Belmont's Curse,2560,
+2026-11-05T20:42:00Z,4251460,Godzilla: Destroy All Monsters Melee Remastered,1630,"popularnew,topsellers"
+2026-11-05T20:42:00Z,4262460,ROB RUN,43745,topsellers
+2026-11-05T20:42:00Z,4312190,CRACK,2979,popularnew
+2026-11-05T20:42:00Z,4348910,Probably Stolen - Cyberpunk Shopkeeper Sim,51111,"most_played,popularnew,specials,topsellers"
+2026-11-05T20:42:00Z,4356430,NBA 2K27,8571,"popularnew,topsellers"
+2026-11-05T20:42:00Z,4358660,Hull Rupture,1757,topsellers
+2026-11-05T20:42:00Z,4420660,ZONE L.O.S.T.,18,new_releases
+2026-11-05T20:42:00Z,4435490,Call of Duty®: Modern Warfare® 4,0,"popularnew,top_sellers,topsellers"
+2026-11-05T20:42:00Z,4455590,RUNTIME,0,new_releases
+2026-11-05T20:42:00Z,4476270,Crown & Coin: The Hundred Years,66,
+2026-11-05T20:42:00Z,4540660,Prehistoric Pit,5,new_releases
+2026-11-05T20:42:00Z,4572120,,1517,
+2026-11-05T20:42:00Z,4637710,Binary Proof,2,new_releases
+2026-11-05T20:42:00Z,4646190,Just Dying,188,
+2026-11-05T20:42:00Z,4681680,Cat Caffeine,19,new_releases
+2026-11-05T20:42:00Z,4732690,Arknights: Endfield,4225,topsellers
+2026-11-05T20:42:00Z,4740930,,7542,
+2026-11-05T20:42:00Z,4944880,Cube Sweeper: 3D Minesweeper,2,new_releases
+2026-11-05T20:42:00Z,4954910,Scam With Your Friends,2470,topsellers
+2026-11-05T20:42:00Z,5028050,Traffic Architect,366,
+2026-11-05T20:42:00Z,5035250,Card Slay,1,new_releases
+2026-11-05T20:42:00Z,5037510,Playrooms,2204,topsellers
+2026-11-05T20:42:00Z,5075360,Tidy Up the Library of Alexandria,28,new_releases
+2026-11-05T20:42:00Z,5088660,Dungeon Miner,0,new_releases
+2026-11-05T20:42:00Z,5101960,Dungeons & Dynasties,793,
+2026-11-05T20:42:00Z,5128170,PROPERTY INSPECTION,4,new_releases
+2026-11-05T20:42:00Z,5133900,Can 'Em All,3177,topsellers
+2026-11-05T20:42:00Z,5154200,Tabletop TD,4,new_releases
+2026-11-05T20:42:00Z,5181520,Mycelarium,894,
+2026-11-05T20:42:00Z,5201620,Fight For Resurrection - Challenge LITE,0,new_releases
+2026-11-05T20:42:00Z,5266240,Potato Please,5262,"popularnew,specials,topsellers"
+2026-11-05T20:42:00Z,5294200,The Usual Table: Texas Hold’em,7,
+2026-11-05T20:42:00Z,5335510,Moon Sweepers,42026,"most_played,popularnew,topsellers"
+2026-11-05T20:42:00Z,5346640,Futbolero: Football Career Simulator,3,new_releases
+2026-11-05T20:42:00Z,5359600,BIGGER BANG,0,new_releases
+2026-11-05T20:42:00Z,5365410,ASTERIS,30,
+2026-11-05T20:42:00Z,5423620,Cabinet Fever,0,new_releases
